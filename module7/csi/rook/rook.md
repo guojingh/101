@@ -40,7 +40,7 @@ Wait for all pod to be running, and:
 kubectl create -f cluster-test.yaml
 ```
 
-### Create storage class
+### Create storage class，测试环境使用 storage-class 有问题。
 
 ```sh
 kubectl get po -n rook-ceph

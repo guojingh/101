@@ -1,3 +1,4 @@
+# 设置每个节点运行一个pod，一般是每个节点必须要的一些插件 eg:calico,kube-proxy这些
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:

@@ -10,6 +10,7 @@ spec:
         - cncamp.com
       secretName: cncamp-tls
   rules:
+    # cncamp.com/abc
     - host: cncamp.com
       http:
         paths:

@@ -57,6 +57,7 @@ docker pull quay.io/kubespray/kubespray:v2.16.0
 
 ```sh
 git clone https://github.com/kubernetes-sigs/kubespray.git
+# 生成秘钥对实现kubespary对这两台机器的无密码登陆
 ssh-keygen -t rsa
 ssh-copy-id -i ~/.ssh/id_rsa.pub cadmin@192.168.34.10
 ssh-copy-id -i ~/.ssh/id_rsa.pub cadmin@192.168.34.11

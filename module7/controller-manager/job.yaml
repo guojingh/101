@@ -3,7 +3,9 @@ kind: Job
 metadata:
   name: pi
 spec:
+  #定义同时起几个pod
   parallelism: 2
+  #定义总共起几个作业
   completions: 5
   template:
     spec:

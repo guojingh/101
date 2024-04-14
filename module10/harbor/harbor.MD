@@ -69,7 +69,9 @@ docker login -u admin -p Harbor12345 core.harbor.domain
 
 ```sh
 kubectl exec -it harbor-registry-7d686859d7-xs5nv -n harbor bash
+#manifests 清单的存放地址
 ls -la /storage/docker/registry/v2/repositories/
+#镜像二进制的存放地址
 ls -la /storage/docker/registry/v2/blobs
 ```
 
